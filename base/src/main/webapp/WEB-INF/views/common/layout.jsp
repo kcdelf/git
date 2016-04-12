@@ -20,10 +20,12 @@
 
 <body>
 
+<div style="min-width:1000px; padding:0px; margin:0px;">
 <tiles:insertAttribute name="header" />
 <tiles:insertAttribute name="left" />
 <tiles:insertAttribute name="body" />
 <tiles:insertAttribute name="footer" />
+</div>
 
 </body>
 

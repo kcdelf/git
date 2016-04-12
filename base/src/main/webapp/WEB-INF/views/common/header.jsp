@@ -17,7 +17,7 @@
 					class="icon-bar"></span> <span class="icon-bar"></span> <span
 					class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="#">BTSP Project Manager <span style="font-size: 10px;">2016.04.10 ~ 2016.10.10</span></a>
+			<a class="navbar-brand" href="#">Base</a>
 		</div>
 
 		<!-- Collect the nav links, forms, and other content for toggling -->
@@ -30,12 +30,7 @@
 				<button type="submit" class="btn btn-default">검색</button>
 			</form>
 			<ul class="nav navbar-nav navbar-right">
-				<li class="active"><a href="#">개발일정 <span class="sr-only">(current)</span></a></li>
-				<li><a href="#">배포신청</a></li>
-				<li><a href="#">개발가이드</a></li>
-				<li><a href="#">자료실</a></li>
-				<li><a href="#">결함처리</a></li>
-				<li><a href="#"><span class="glyphicon glyphicon-cog">&nbsp;</span></a></li>
+				<li class="active"><a href="#">게시판 <span class="sr-only">(current)</span></a></li>
 			</ul>
 		</div>
 		<!-- /.navbar-collapse -->

@@ -1,1 +1,5 @@
-f
+<nav class="navbar navbar-default navbar-fixed-bottom">
+	<div class="container-fluid">
+
+	</div>
+</nav>

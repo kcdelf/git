@@ -20,12 +20,18 @@
 
 <body>
 
-<div style="min-width:1000px; padding:0px; margin:0px;">
 <tiles:insertAttribute name="header" />
-<tiles:insertAttribute name="left" />
-<tiles:insertAttribute name="body" />
-<tiles:insertAttribute name="footer" />
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-2 col-sm-2 col-xs-2">
+			<tiles:insertAttribute name="left" />
+		</div>
+		<div class="col-md-10 col-sm-10 col-xs-10">
+			<tiles:insertAttribute name="body" />
+		</div>
+	</div>
 </div>
+<tiles:insertAttribute name="footer" />
 
 </body>
 

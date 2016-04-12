@@ -6,7 +6,7 @@
 <%@ taglib uri="http://www.springframework.org/security/tags" prefix="sec" %>
 <%@ taglib uri="http://tiles.apache.org/tags-tiles" prefix="tiles" %>
 
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-default navbar-fixed-top">
 	<div class="container-fluid">
 		<!-- Brand and toggle get grouped for better mobile display -->
 		<div class="navbar-header">
@@ -23,12 +23,6 @@
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse"
 			id="bs-example-navbar-collapse-1">
-			<form class="navbar-form navbar-right" role="search">
-				<div class="form-group">
-					<input type="text" class="form-control" placeholder="검색어">
-				</div>
-				<button type="submit" class="btn btn-default">검색</button>
-			</form>
 			<ul class="nav navbar-nav navbar-right">
 				<li class="active"><a href="#">게시판 <span class="sr-only">(current)</span></a></li>
 			</ul>

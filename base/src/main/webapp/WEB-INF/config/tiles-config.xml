@@ -5,12 +5,11 @@
 <tiles-definitions>
 
 	<definition name="layout" templateExpression="/WEB-INF/views/common/layout.jsp">
-		<put-attribute name="header" expression="/WEB-INF/views/common/header.jsp" />
 		<put-attribute name="left" expression="/WEB-INF/views/common/left.jsp" />
-		<put-attribute name="footer" expression="/WEB-INF/views/common/footer.jsp" />
 	</definition>
 
 	<definition name="*" extends="layout">
+		<put-attribute name="script" value="{1}.js" />
 		<put-attribute name="body" expression="/WEB-INF/views/{1}.jsp" />
 	</definition>
 

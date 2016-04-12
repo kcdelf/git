@@ -15,7 +15,7 @@
 <link rel="stylesheet" href="<c:url value="/resources/css/bootstrap.min.css" />">
 <link rel="stylesheet" href="<c:url value="/resources/css/simple-sidebar.css" />">
 
-<script src="<c:url value="/resources/js/angular.min.js" />"></script>
-<script src="<c:url value="/resources/js/jquery.min.js" />"></script>
-<script src="<c:url value="/resources/js/jquery-ui.min.js" />"></script>
-<script src="<c:url value="/resources/js/bootstrap.min.js" />"></script>
+<script src="<c:url value="/resources/js/common/angular.min.js" />"></script>
+<script src="<c:url value="/resources/js/common/jquery.min.js" />"></script>
+<script src="<c:url value="/resources/js/common/jquery-ui.min.js" />"></script>
+<script src="<c:url value="/resources/js/common/bootstrap.min.js" />"></script>

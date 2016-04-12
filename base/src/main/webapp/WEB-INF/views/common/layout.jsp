@@ -14,24 +14,28 @@
 
 <c:import url="/WEB-INF/views/common/script.jsp" charEncoding="utf-8" />
 
+<script src="<c:url value="/resources/js/" /><tiles:getAsString name="script" />"></script>
+
 <title></title>
 
 </head>
 
 <body>
 
-<tiles:insertAttribute name="header" />
-<div class="container-fluid">
-	<div class="row">
-		<div class="col-md-2 col-sm-2 col-xs-2">
-			<tiles:insertAttribute name="left" />
-		</div>
-		<div class="col-md-10 col-sm-10 col-xs-10">
-			<tiles:insertAttribute name="body" />
+<div id="wrapper">
+	<div id="sidebar-wrapper">
+		<tiles:insertAttribute name="left" />
+	</div>
+	<div id="page-content-wrapper">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-12">
+					<tiles:insertAttribute name="body" />
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
-<tiles:insertAttribute name="footer" />
 
 </body>
 

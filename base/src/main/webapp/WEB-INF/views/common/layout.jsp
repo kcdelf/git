@@ -23,10 +23,8 @@
 <body>
 
 <div id="wrapper">
-	<div id="sidebar-wrapper">
-		<tiles:insertAttribute name="left" />
-	</div>
-	<div id="page-content-wrapper">
+	<tiles:insertAttribute name="menu" />
+	<div id="page-wrapper">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-lg-12">

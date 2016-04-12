@@ -1,14 +1,14 @@
+<%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8" %>
 
-<h1>Simple Sidebar</h1>
-<p>This template has a responsive menu toggling system. The menu
-	will appear collapsed on smaller screens, and will appear non-collapsed
-	on larger screens. When toggled using the button below, the menu will
-	appear/disappear. On small screens, the page content will be pushed off
-	canvas.</p>
-<p>
-	Make sure to keep all page content within the
-	<code>#page-content-wrapper</code>
-	.
-</p>
-<a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle
-	Menu</a>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
+<%@ taglib uri="http://www.springframework.org/tags" prefix="spring" %>
+<%@ taglib uri="http://www.springframework.org/security/tags" prefix="sec" %>
+<%@ taglib uri="http://tiles.apache.org/tags-tiles" prefix="tiles" %>
+
+<h1 class="page-header">
+	Dashboard <small>Statistics Overview</small>
+</h1>
+<ol class="breadcrumb">
+	<li class="active"><i class="fa fa-dashboard"></i> Dashboard</li>
+</ol>

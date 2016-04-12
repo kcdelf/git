@@ -5,7 +5,7 @@
 <tiles-definitions>
 
 	<definition name="layout" templateExpression="/WEB-INF/views/common/layout.jsp">
-		<put-attribute name="left" expression="/WEB-INF/views/common/left.jsp" />
+		<put-attribute name="menu" expression="/WEB-INF/views/common/menu.jsp" />
 	</definition>
 
 	<definition name="*" extends="layout">

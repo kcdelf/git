@@ -13,7 +13,8 @@
 
 <link rel="stylesheet" href="<c:url value="/resources/css/jquery-ui.min.css" />">
 <link rel="stylesheet" href="<c:url value="/resources/css/bootstrap.min.css" />">
-<link rel="stylesheet" href="<c:url value="/resources/css/simple-sidebar.css" />">
+<!-- link rel="stylesheet" href="<c:url value="/resources/css/simple-sidebar.css" />" -->
+<link rel="stylesheet" href="<c:url value="/resources/css/sb-admin.css" />">
 
 <script src="<c:url value="/resources/js/common/angular.min.js" />"></script>
 <script src="<c:url value="/resources/js/common/jquery.min.js" />"></script>
